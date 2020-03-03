@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'io.autodev'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    compile group: 'org.openjfx', name: 'javafx', version: '13.0.2', ext: 'pom'
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
