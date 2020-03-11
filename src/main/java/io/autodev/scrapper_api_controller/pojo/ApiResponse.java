@@ -24,6 +24,14 @@
  */
 package io.autodev.scrapper_api_controller.pojo;
 
+import java.util.List;
+import lombok.Data;
+
+@Data
 public class ApiResponse {
+
+    private Integer code;
+    private String msg;
+    private List<Task> list;
 
 }

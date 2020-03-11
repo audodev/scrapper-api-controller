@@ -22,13 +22,16 @@
  *  ================================================================================
  *
  */
-package io.autodev.scrapper_api_controller.api;
+package io.autodev.scrapper_api_controller.pojo;
 
+import lombok.Data;
+
+@Data
 public class Task {
 
-    String name;
-    Integer timeCreated;
-    Integer taskId;
-    String type;
+    private String name;
+    private Integer timeCreated;
+    private Integer taskId;
+    private String type;
 
 }

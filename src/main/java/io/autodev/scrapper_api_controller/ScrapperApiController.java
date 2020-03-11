@@ -1,4 +1,4 @@
-package io.autodev.scrapper_api_controller;/*
+/*
  *     Copyright 2020 Overnodes. All rights reserved.
  *
  *     Licensed under the Apache License, Version 2.0 (the "License");
@@ -22,7 +22,18 @@ package io.autodev.scrapper_api_controller;/*
  *  ================================================================================
  *
  */
+package io.autodev.scrapper_api_controller;
+
+import javafx.event.ActionEvent;
+import javafx.scene.control.Label;
 
 public class ScrapperApiController {
 
+    public Label helloWorld;
+
+    public void sayHelloWorld(ActionEvent actionEvent) {
+
+        helloWorld.setText("Hello World");
+
+    }
 }
